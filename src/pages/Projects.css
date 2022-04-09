@@ -1,0 +1,8 @@
+.card a {
+  margin: auto;
+  text-decoration: none;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 20px;
+}
