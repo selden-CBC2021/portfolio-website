@@ -18,12 +18,13 @@
 
 .i-left-wrapper {
   padding: 50px;
-  height: 75%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .i-intro{
+  margin-top: 10rem;
   font-size: 30px;
   font-weight: 300;
 }
@@ -32,13 +33,13 @@
   
 }
 .i-title{
-  height: 50px;
+  height: auto;
   overflow: hidden;
   
   
 }
 .i-title-item{
-  height: 40px;
+  height: auto;
   font-size: 25px;
   font-weight: bold;
   color: var(--color-primary);
@@ -119,6 +120,10 @@
     border: 2px solid var(--color-primary-variant);
     overflow: hidden;
   }
+  .i-title-wrapper{
+    height: auto;
+    animation: move 10s ease-in-out infinite alternate;
+   }
   .i-skillslist{
     margin-bottom: 1rem;
   }

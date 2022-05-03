@@ -23,7 +23,7 @@ const App = () => {
             <Navbar.Toggle />
             <Navbar.Collapse className="d-flex justify-content-center ">
               <Nav  >
-                <Nav.Link as={Link} to="/About" exact>
+                <Nav.Link as={Link} to="/About">
                   About
                 </Nav.Link>
                 <Nav.Link as={Link} to="/Projects">
@@ -36,7 +36,7 @@ const App = () => {
             </Navbar.Collapse>
           </Navbar>
           <Routes>
-            <Route path="/About" element={<About/>}  />
+            <Route path="/About" element={<About/>} exact />
             <Route path="/Projects" element={<Projects/>} />
             <Route path="/Contact" element={<Contact/>} />
           </Routes>
