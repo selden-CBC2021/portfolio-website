@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/About/static/css/main.ad6e4b4b.css",
-    "main.js": "/About/static/js/main.a20e3b3d.js",
-    "static/media/drewportfolio.jpeg": "/About/static/media/drewportfolio.69054b6704496d1c38cd.jpeg",
-    "static/media/weatherAppImg.jpg": "/About/static/media/weatherAppImg.33b64c36735bc03c7b49.jpg",
-    "static/media/fitnessTracker.jpg": "/About/static/media/fitnessTracker.6b2cb3c54a244f39b86f.jpg",
-    "static/media/workDaySchedule.jpg": "/About/static/media/workDaySchedule.fa13d878bfe28d5ffb3f.jpg",
-    "static/media/repostBlogSite.jpg": "/About/static/media/repostBlogSite.1e7852a8d291bca37b07.jpg",
-    "static/media/covidTracker1.jpg": "/About/static/media/covidTracker1.e13cc0eb010b85e28a07.jpg",
-    "index.html": "/About/index.html",
-    "main.ad6e4b4b.css.map": "/About/static/css/main.ad6e4b4b.css.map",
-    "main.a20e3b3d.js.map": "/About/static/js/main.a20e3b3d.js.map"
+    "main.css": "/static/css/main.e220026a.css",
+    "main.js": "/static/js/main.d030bdc6.js",
+    "static/media/drewportfolio.jpeg": "/static/media/drewportfolio.69054b6704496d1c38cd.jpeg",
+    "static/media/weatherAppImg.jpg": "/static/media/weatherAppImg.33b64c36735bc03c7b49.jpg",
+    "static/media/fitnessTracker.jpg": "/static/media/fitnessTracker.6b2cb3c54a244f39b86f.jpg",
+    "static/media/workDaySchedule.jpg": "/static/media/workDaySchedule.fa13d878bfe28d5ffb3f.jpg",
+    "static/media/repostBlogSite.jpg": "/static/media/repostBlogSite.1e7852a8d291bca37b07.jpg",
+    "static/media/covidTracker1.jpg": "/static/media/covidTracker1.e13cc0eb010b85e28a07.jpg",
+    "index.html": "/index.html",
+    "main.e220026a.css.map": "/static/css/main.e220026a.css.map",
+    "main.d030bdc6.js.map": "/static/js/main.d030bdc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad6e4b4b.css",
-    "static/js/main.a20e3b3d.js"
+    "static/css/main.e220026a.css",
+    "static/js/main.d030bdc6.js"
   ]
 }
