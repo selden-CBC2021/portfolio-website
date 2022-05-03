@@ -30,16 +30,13 @@
 }
 .i-name {
   font-size: 60px;
-  margin-bottom: 0.5rem;
   
 }
 .i-title{
   height: auto;
   overflow: hidden;
   margin-top: 0.5rem;
-  
-  
-  
+  padding: .2rem;
 }
 .i-title-item{
   height: auto;
