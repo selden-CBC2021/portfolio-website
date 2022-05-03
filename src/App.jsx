@@ -36,7 +36,8 @@ const App = () => {
             </Navbar.Collapse>
           </Navbar>
           <Routes>
-            <Route path="/About" element={<About/>} exact />
+            <Route path="/" element={<About/>} />  
+            <Route path="/About" element={<About/>}  />
             <Route path="/Projects" element={<Projects/>} />
             <Route path="/Contact" element={<Contact/>} />
           </Routes>
