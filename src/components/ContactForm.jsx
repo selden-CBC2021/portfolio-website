@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
+import '../index.css'
 
 const FormStyles = styled.form`
   width: 100%;
@@ -27,17 +28,27 @@ const FormStyles = styled.form`
       min-height: 200px;
       resize: vertical;
   }
-  button[type="submit"]{
-    background-color: lightgray;
-    color: black;
-    font-size: 1rem;
+  .btn {
+    width: max-content;
     display: inline-block;
-    outline: none;
-    border: none;
-    padding: 1rem 3rem;
-    border-radius: 8px;
+    background: var(--color-bg);
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    text: var(--color-primary);
     cursor: pointer;
-  }
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
 
 `
 
@@ -68,7 +79,7 @@ export default function ContactForm() {
              />
           </label>
         </div>
-        <button type="submit"><strong>Send</strong></button>
+        <button className="btn" type="submit"><strong>Send</strong></button>
       </FormStyles>
     </div>
   )
