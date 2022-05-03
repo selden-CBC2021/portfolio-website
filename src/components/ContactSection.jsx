@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ContactStyles = styled.div`
   padding: 1.5rem;
-  background-color: rgb(37, 34, 34);
+  background-color: var(--color-bg);
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -12,7 +12,7 @@ const ContactStyles = styled.div`
   margin-bottom: 2rem;
   .icon {
     color: white;
-    background-color: gray;
+    background-color: var(--color-primary);
     padding: 1.3rem;
     align-items: center;
     justify-content: center;
