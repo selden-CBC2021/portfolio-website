@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/About/static/css/main.d83dda7d.css",
-    "main.js": "/About/static/js/main.13386405.js",
+    "main.css": "/About/static/css/main.ad6e4b4b.css",
+    "main.js": "/About/static/js/main.a20e3b3d.js",
     "static/media/drewportfolio.jpeg": "/About/static/media/drewportfolio.69054b6704496d1c38cd.jpeg",
     "static/media/weatherAppImg.jpg": "/About/static/media/weatherAppImg.33b64c36735bc03c7b49.jpg",
     "static/media/fitnessTracker.jpg": "/About/static/media/fitnessTracker.6b2cb3c54a244f39b86f.jpg",
@@ -9,11 +9,11 @@
     "static/media/repostBlogSite.jpg": "/About/static/media/repostBlogSite.1e7852a8d291bca37b07.jpg",
     "static/media/covidTracker1.jpg": "/About/static/media/covidTracker1.e13cc0eb010b85e28a07.jpg",
     "index.html": "/About/index.html",
-    "main.d83dda7d.css.map": "/About/static/css/main.d83dda7d.css.map",
-    "main.13386405.js.map": "/About/static/js/main.13386405.js.map"
+    "main.ad6e4b4b.css.map": "/About/static/css/main.ad6e4b4b.css.map",
+    "main.a20e3b3d.js.map": "/About/static/js/main.a20e3b3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d83dda7d.css",
-    "static/js/main.13386405.js"
+    "static/css/main.ad6e4b4b.css",
+    "static/js/main.a20e3b3d.js"
   ]
 }
