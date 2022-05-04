@@ -18,7 +18,7 @@ const App = () => {
             variant="dark"
             expand="sm"
             collapseOnSelect
-            border="20px solid var(--color-primary)"
+            border="var(--color-primary)"
           >
             <Navbar.Toggle />
             <Navbar.Collapse className="d-flex justify-content-center ">
@@ -36,7 +36,7 @@ const App = () => {
             </Navbar.Collapse>
           </Navbar>
           <Routes>
-            <Route path="/" element={<About/>} />  
+            <Route path="/portfolio-website" element={<About/>} />  
             <Route path="/About" element={<About/>}  />
             <Route path="/Projects" element={<Projects/>} />
             <Route path="/Contact" element={<Contact/>} />
