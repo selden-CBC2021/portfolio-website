@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10rem;
 }
 
 .i-right{
@@ -17,14 +18,15 @@
 }
 
 .i-left-wrapper {
-  padding: 50px;
-  height: auto;
+  padding: 1rem;
+  
   display: flex;
   flex-direction: column;
+  margin-top: 10rem;
   justify-content: space-between;
 }
 .i-intro{
-  margin-top: 10rem;
+  margin-top: 5rem;
   font-size: 30px;
   font-weight: 300;
 }
@@ -45,7 +47,8 @@
   color: var(--color-primary);
   display: flex;
   align-items: center;
-  margin: auto;
+  
+  
 }
 .i-title-wrapper{
   height: auto;
@@ -79,7 +82,7 @@
   height: auto;
   object-fit: cover;
   position: absolute;
-  top: 200px;
+  top: 130px;
   right: 150px;
   border: 2px solid var(--color-primary);
 
@@ -90,7 +93,7 @@
   width: 100%;
   height: 100%;
   
-  position: absolute;
+  position: sticky;
   top: 0;
   right: 0;
  
@@ -99,13 +102,15 @@
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   margin-top: 2rem;
+  margin-bottom: 4rem;
+  gap: .5rem;
   
 }
 .i-skillslist{
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and(max-width: 1024px){
@@ -114,9 +119,9 @@
     width: 25%;
     height: 25%;
     object-fit: contain;
-    position: absolute;
-    top: 200px;
-    right: 150px;
+    position: relative;
+    top: 150px;
+    right: 100px;
     border: 2px solid var(--color-primary-variant);
     overflow: hidden;
   }
@@ -124,12 +129,15 @@
     height: auto;
     animation: move 10s ease-in-out infinite alternate;
    }
-  .i-skillslist{
-    margin-bottom: 1rem;
+   .i-left-wrapper {
+     height: auto;
+    margin-top: 4rem;
   }
-  .i-skills{
-    margin-bottom: 1rem; 
+  .i-intro {
+    height: auto;
+    margin-top: 4rem;
   }
+  
 }
 @media only screen and(max-width: 600px){
   .i-img {
@@ -137,8 +145,14 @@
     height: auto;
     max-width: 100%;
     object-fit: scale-down;
-    position: absolute;
-    top: 250px;
-    right: 200px;
-  }
+    position: fixed;
+    top: 120px;
+    right: 100px;
+   }
+  .i-left-wrapper {
+     margin: auto;
+   }
+   .i-intro {
+     margin: auto;
+   }
 }

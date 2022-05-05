@@ -1,13 +1,24 @@
 .footer {
-  background-color: var(--color-primary);
-  border-top:2px solid var(--color-bg);
-  border-bottom:2px solid var(--color-bg);
-  position: relative;
+  background-color: var(--color-bg);
+  border-top:2px solid var(--color-primary);
+  border-bottom:2px solid var(--color-primary);
+  position: fixed;
   height: 60px;
   width: 100%;
   bottom: 0;
   color: white;
   font-size: 25px;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 5rem;
+ }
+ @media only screen and(max-width: 1024px){
+   .footer {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: fixed;
+      margin-top: 5rem;
+      height: 100px;
+     
+   }
  }

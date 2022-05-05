@@ -13,15 +13,14 @@ const App = () => {
     return (
         <BrowserRouter>
         <div className="App">
-          <Navbar
+          <Navbar className="d-flex navbar-custom"
             bg="var(--color-bg)"
             variant="dark"
             expand="sm"
             collapseOnSelect
-            border="var(--color-primary)"
           >
             <Navbar.Toggle />
-            <Navbar.Collapse className="d-flex justify-content-center ">
+            <Navbar.Collapse className="d-flex  justify-content-center ">
               <Nav  >
                 <Nav.Link as={Link} to="/About">
                   About

@@ -44,6 +44,9 @@ body {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
+.navbar-custom{
+    border: 1px solid var(--color-primary);
+}
 h1,h2,h3,h4,h5 {
     font-weight: 500;
 }
@@ -54,6 +57,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    margin-bottom: 4rem;
 }
 
 section > h2, section > h5 {
@@ -104,7 +108,7 @@ a:hover {
 img {
     display: block;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* MEDIUM DEVICES MEDIA QUERIES */
@@ -115,7 +119,7 @@ img {
     }
 
     section {
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 }
 
@@ -128,6 +132,7 @@ img {
 
     section {
         margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
