@@ -4,13 +4,15 @@ import styled from 'styled-components';
 const SectionTitleStyle = styled.div`
   text-align: center;
   p {
-    font-family: 'RobotoMono Regular';
+    font-family: 'Poppins';
     font-size: 2rem;
+    color: var(--color-light);
   }
   h2 {
-    font-family: 'Montserrat Bold';
-    font-size: 6rem;
-    margin-top: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    margin-top: 0.25rem;
     text-transform: uppercase;
   }
   @media only screen and (max-width: 768px) {

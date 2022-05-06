@@ -10,7 +10,7 @@ import ContactForm from "../components/ContactForm";
 
 
 const ContactSectionStyle = styled.div`
-padding: 10rem 0;
+padding: 5rem 0;
 .contact-wrapper {
   display: flex;
   gap: 5rem;
@@ -50,7 +50,7 @@ padding: 10rem 0;
   .right {
     padding: 4rem 2rem 2rem 2rem;
   }
-  }
+}
   
 
 `

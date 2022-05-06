@@ -3,13 +3,17 @@
   border-top:2px solid var(--color-primary);
   border-bottom:2px solid var(--color-primary);
   position: fixed;
-  height: 60px;
+  height: 70px;
   width: 100%;
   bottom: 0;
+  padding: .5rem;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   margin-top: 5rem;
+  display: flex;
  }
  @media only screen and(max-width: 1024px){
    .footer {
@@ -17,8 +21,17 @@
       left: 0;
       right: 0;
       position: fixed;
+      padding: .5rem;
       margin-top: 5rem;
       height: 100px;
      
+   }
+ }
+ @media only screen and(max-width: 600px) {
+   .footer {
+      height: 100px;
+      margin-top: 5rem;
+      padding: .5rem;
+      bottom: 0;
    }
  }
