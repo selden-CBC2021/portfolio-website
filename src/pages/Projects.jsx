@@ -18,7 +18,7 @@ function Projects() {
             <img src={repost} alt="" />
           </div>
           <h3>RePost</h3>
-          <p>A simple blogging app. Tumblr clone that uses the model, view, controller (MVC) structure.</p>
+          <p>A blogging app with video embedding capability. A Tumblr like clone that uses the model, view, controller (MVC) structure.</p>
           <div className="portfolio-item-cta">
             <a href="https://github.com/selden-CBC2021/rePost" className='btn' target="_blank" rel="noreferrer noopener">Github</a>
             <a href="https://repostproject.herokuapp.com/" className='btn btn-primary' target="_blank" rel="noreferrer noopener">View Demo</a>
@@ -40,7 +40,7 @@ function Projects() {
             <img src={wds} alt="" />
           </div>
           <h3>Work Day Scheduler</h3>
-          <p>Simple app that that can track your working day. Utilizes local storage - saved data will be kept even after a page refresh.</p>
+          <p>Note taking app that that can track your working day. Utilizes local storage - saved data will be kept even after a page refresh.</p>
           <div className="portfolio-item-cta">
             <a href="https://github.com/selden-CBC2021/Daily-Event-Planner" className='btn' target="_blank" rel="noreferrer noopener">Github</a>
             <a href="https://selden-cbc2021.github.io/Daily-Event-Planner/" className='btn btn-primary' target="_blank" rel="noreferrer noopener">View Demo</a>

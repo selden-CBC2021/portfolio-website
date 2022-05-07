@@ -20,17 +20,17 @@ function About() {
           <h1 className="i-name"> Drew Selden</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Full Stack Web Developer</div>
+              <div className="i-title-item">Group or Solo setting</div>
               <div className="i-title-item">Quick Learner</div>
               <div className="i-title-item">Adaptable</div>
-              <div className="i-title-item">Group or Solo setting</div>
+              <div className="i-title-item">Full Stack Developer</div>
             </div>
           </div>
           <p className="i-desc">
           I am a Full-Stack Web Developer skilled in HTML, CSS, and JavaScript. I possess a knowledge of various frameworks and tools that are used in today's software engineering and technology. I am also a Michigan State University alumni with a bachelor's degree in Human Biology and Criminal Justice.
           </p>
           <p className="i-desc">
-          On a more personal note I am able to grasp new concepts quickly, adapt in nearly any situation, and can help solve problems with critical thinking skills and an eye for detail. I excel at planning and data analysis while usually being able to see the big picture before it's been made clear.
+          On a more personal note I am able to grasp new concepts quickly, adapt in nearly any situation, and can help solve problems with critical thinking skills and an eye for detail. I excel at planning and analysis while usually being able to see the big picture before it's been made clear.
           </p>
           
           <Resume />
@@ -65,7 +65,7 @@ function About() {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={drewProfile} alt="" className="i-img rounded-circle" />
+        <img src={drewProfile} alt="pic of drew" className="i-img rounded-circle" />
         
       </div>
     </div>

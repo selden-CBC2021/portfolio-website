@@ -1,6 +1,7 @@
 
 .i {
   display: flex;
+  margin-top: 9rem;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
@@ -16,6 +17,7 @@
   flex: 1;
   position: relative;
   overflow: hidden;
+  opacity: .85;
 }
 
 .i-left-wrapper {
@@ -23,12 +25,13 @@
   
   display: block;
   flex-direction: column;
-  margin-top: 10rem;
-  justify-content: space-evenly;
+  margin-top: 7rem;
+  justify-content: space-between;
 }
 .i-intro{
   display: block;
-  margin-top: 10rem;
+  
+  margin-top: 6rem;
   font-size: 30px;
   font-weight: 300;
 }
@@ -39,7 +42,7 @@
 .i-title{
   height: auto;
   overflow: hidden;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   padding: .2rem;
 }
 .i-title-item{
@@ -54,6 +57,7 @@
 }
 .i-title-wrapper{
   height: auto;
+  margin-top: .75rem;
   animation: move 10s ease-in-out infinite alternate;
  }
  .cta {
@@ -81,9 +85,9 @@
   display: block;
   max-width: 50%;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
   position: absolute;
-  top: 150px;
+  top: 180px;
   right: 150px;
   border: 2px solid var(--color-primary);
 
@@ -118,32 +122,38 @@
 @media only screen and(max-width: 1024px){
   .i-img{
     display: flex;
-    width: 25%;
+    width: 50%;
     height: 25%;
     object-fit: scale-down;
     position: relative;
-    top: 150px;
+    top: 250px;
     right: 100px;
     border: 2px solid var(--color-primary-variant);
     overflow: hidden;
   }
   .i-title-wrapper{
-    height: auto;
+    
     animation: move 10s ease-in-out infinite alternate;
    }
    .i-left-wrapper {
-     height: auto;
-    margin-top: 4rem;
+    
+    margin-top: 10rem;
   }
   .i-intro {
-    height: auto;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20rem;
+      font-size: 30px;
+      font-weight: 300;
+  }
+  .i-left {
     margin-top: 4rem;
   }
   
 }
 @media only screen and(max-width: 600px){
   .i-img {
-    display: block;
+    display: flex;
     flex-direction: column;
     height: auto;
     max-width: 100%;
@@ -154,9 +164,23 @@
     overflow: hidden;
    }
   .i-left-wrapper {
-     margin-top: 6rem;
+     margin-top: 12rem;
+     justify-content: space-between;
+     display: flex;
+     position: relative;
+     flex-direction: column;
    }
    .i-intro {
-     margin-top: 6rem;
+    display: block;
+    flex-direction: column;
+    margin-top: 20rem;
+    font-size: 30px;
+    font-weight: 300;
+}
+   .i-left {
+     margin-top: 12rem;
+   }
+   .i {
+     margin-top: 20rem;
    }
 }
